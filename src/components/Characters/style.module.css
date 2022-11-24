@@ -1,0 +1,22 @@
+.Characters{
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: aqua;
+}
+.Characters h3{
+    color:  black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Characters figure{
+    height: 70%;
+    width: 95%;
+}
+.Characters figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
