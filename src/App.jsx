@@ -1,13 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './styles/App.css'
 import CharCard from "./components/CharCard"
 
 function App() {
-  const [char, setChar] = useState([])
+  const [characterList , setCharacterList] = useState([])
+
+  useEffect(() => {
+    console.log('Montou');
+  }, [])
 
   return (
     <>
-      <CharCard chars={char}/>
+      <CharCard chars={characterList}/>
     </>
   )
 }

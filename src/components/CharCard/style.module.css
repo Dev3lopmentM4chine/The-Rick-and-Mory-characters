@@ -1,0 +1,15 @@
+.CharCard{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
+}
+.titleCard{
+    margin: 50px;
+}
