@@ -4,9 +4,8 @@ import Characters from "../Characters";
 function CharCard({ chars }) {
   return (
     <>
-      <h1 className={style.titleCard}>Personagens do Rick and Mory</h1>
       <ul className={style.CharCard}>
-        <Characters />
+        {chars.map(char => <Characters key={char.id} name={char.name} img={char.image}/>)}
       </ul>
     </>
   );

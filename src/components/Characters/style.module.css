@@ -1,30 +1,34 @@
 .Characters{
-    height: 250px;
-    width: 200px;
+    width: 239px;
+    height: 568px;
     border-radius: 8px;
-    padding: 5px;
-    background-color: rgb(158, 224, 224);
+    background-color: var(--color-grey-1);
+    overflow: hidden;
     cursor: pointer;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
-.Characters h3{
-    color:  black;
-    font-size: 20px;
-    font-weight: 400;
+@media screen and (min-width: 800px) {
+}
+
+.Characters h2{
+    color:  var(--color-primary);
+    font-size: 27px;
+    font-weight: var(--font-weight-4);
+}
+.Characters h2:hover{
+    color: var(--color-orange);
 }
 
 .Characters figure{
-    height: 70%;
-    width: 95%;
-    border-radius: 8px;
-    overflow: hidden;
+    width: 100%;
+    height: 300px;
 }
 .Characters figure img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }

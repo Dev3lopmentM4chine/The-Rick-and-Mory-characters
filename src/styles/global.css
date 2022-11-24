@@ -1,12 +1,23 @@
 :root{
     /* Colors */
-    --color-primary: white;
-    --color-secondary: white;
-    --color-grey-1: grey;
-    --alert: red;
-    --sucess:green;
+    --color-primary: #ffffff;
+    --color-secondary: #202329;
+    --color-grey-1: #3c3e44;
+    --color-grey-2: #9e9e9e;
+    --color-orange: #ff9800;
+    --alert: #d63d2e;
+    --sucess: #55cc44;
 
     /* Fonts */
-    --title-1: 1rem;
-    --text-1: 1rem;
+    /* --font-size-1: 101px;
+    --font-size-2: 27px;
+    --font-size-3: 18px;
+    --font-size-4: 16px; */
+    
+    --font-weight-1: 400;
+    --font-weight-2: 500;
+    --font-weight-3: 600;
+    --font-weight-4: 700;
+    --font-weight-5: 800;
+
 }
